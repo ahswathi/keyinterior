@@ -32,6 +32,11 @@ const Home = () => {
             <button className='text-[#000000] font-bold	text-[14px] px-8 py-2 w-[50%] bg-[#FFC12B] my-[20px]'>Enquire now</button>
         </div>
         </div>
+        <div className="font-normal text-white pt-[40px] pb-[40px] text-center">
+          <p className='text-[52px]'>Google reviews</p> 
+          <p className='text-[18px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+          <img src="images/Group.png" alt="logo" className='py-[60px] w-full px-[160px]' />
+        </div>
         <Brand/>
     </Layout>
   )
