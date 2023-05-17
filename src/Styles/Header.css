@@ -1,0 +1,56 @@
+.Header{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    background-color: '#060606',
+
+}
+.nav-menu{
+    list-style-type: none;
+    padding: 30px 30px;
+}
+.nav-menu li{
+    margin: 8px 0px;
+    font-size: 16px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px 30px;
+}
+.nav-menu li a:hover{
+    color: #FFC12B;
+}
+.nav-menu2{
+    list-style-type: none;
+}
+.nav-menu2 li{
+    margin: 8px 0px;
+    font-size: 20px;
+}
+.nav-menu2 li a{
+    text-decoration: none;
+    color: #767676;
+    padding: 0px 30px;
+}
+.footer-input{
+    background-color: transparent;
+    border-bottom: 1.8px solid #FFFFFF;
+    width: 70%;
+}
+
+.form-input{
+    background-color: transparent;
+    border: 1.8px solid #E0E0E0;
+    color: #E0E0E0;
+}
+
+
+.enquire-img{
+    position: relative;
+}
+.enquire-text{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
