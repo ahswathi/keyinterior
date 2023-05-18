@@ -8,7 +8,7 @@ const About = () => {
     <Layout>
     <div className="font-normal text-white lg:p-[80px] md:p-[80px] sm:p-[40px] py-[20px] px-[40px]">
       <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px] '>About us</p> 
-      <img src="images/About.png" alt="logo" className='py-[20px]' />
+      <div className=''> <img src="images/About.png" alt="logo" className='py-[20px] w-full md:max-w-full' /></div>
     </div>
     <div className='text-white lg:p-[80px] md:p-[80px] sm:p-[40px] px-[40px]'>
       <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] '>Who we are</p> 
