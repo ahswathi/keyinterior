@@ -69,7 +69,7 @@ const Footer = () => {
                     </ul>
             </div>
             <div className='flex-col'>
-                <p className='text-[32px] pb-[20px]'>Want to talk about a new<br/> project?</p>
+                <p className='lg:text-[32px] md:text-[32px] text-[22px] pb-[20px]'>Want to talk about a new<br/> project?</p>
                 <input type="text" placeholder='Enter your email' class="footer-input outline-none focus:outline-none py-2"/> <br/>
                 <button className='bg-white text-black text-[14px] px-8 p-2 my-[20px]'>Subscribe</button>
             </div>

@@ -7,7 +7,7 @@ const Contact = () => {
       <div className='lg:p-[80px] md:p-[80px] sm:p-[40px] p-[40px]'>
         <div className="lg:flex  md:flex sm:flex justify-center items-center pb-[20px]">
           <div className="font-normal text-white pe-[40px]">
-            <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px] '>Contact us</p> 
+            <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[32px] '>Contact us</p> 
             <p className='lg:text-[18px] md:text-[18px] text-[12px] pb-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
           </div>
           <div className='w-full'>
@@ -15,14 +15,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="font-normal text-white lg:pe-[40px] md:pe-[40px] sm:pe-[40px]
-        text-center lg:py-[80px] md:py-[80px]  sm:py-[20px] pb-[20px]">
-           <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px]'>Google map</p> 
+        text-center lg:py-[80px] md:py-[80px]  sm:py-[20px] py-[20px]">
+           <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[32px]'>Google map</p> 
            <p className='lg:text-[18px] md:text-[18px] text-[12px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
         </div>
         <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77492134983!2d77.3012646607384!3d12.954459535201728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1683980794732!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" ></iframe>
         </div>
-        <div className='lg:flex  md:flex sm:flex justify-between items-between'>
+        <div className='lg:flex  md:flex sm:flex justify-between items-between py-[40px]'>
           <div className='text-[22px] sm:text-[16px] lg:py-[80px] md:py-[80px] sm:py-[40px] py-[40px]'>
             <p className='text-white'>Back office Location</p>
             <p className='text-[#767676]'>438 Marine Parade Elwood,<br/>
@@ -45,7 +45,7 @@ const Contact = () => {
         <div className='lg:flex  md:flex  items-center bg-[#0C0B0A] rounded-s-[44px] '>
           <div className='px-[20px] lg:px-[40px] md:px-[40px]'>
             <div className="font-normal text-white pb-[30px]">
-              <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px]'>Enquire now</p> 
+              <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[32px]'>Enquire now</p> 
               <p className='lg:text-[18px] md:text-[18px] text-[12px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
             </div>
             <div className='flex-col'>
