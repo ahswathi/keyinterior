@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='p-[80px]  bg-[#060606] text-white'>
-        <div className='flex justify-between pb-[20px]'>
-            <div className='pb-[80px] text-[#767676] text-[20px]'>
+    <div className='lg:p-[80px] p-[40px] bg-[#060606] text-white'>
+        <div className='flex flex-wrap justify-between lg:pb-[80px]'>
+            <div className='pb-[20px] text-[#767676] text-[20px]'>
             <p>438 Marine Parade Elwood, <br/>
             Victoria P.O Box 3184 </p>  <br/>
             <p>Phone: +714 3948 0000  <br/>
@@ -50,7 +50,6 @@ const Footer = () => {
                     </defs>
                     </svg> &nbsp;&nbsp;
             </div>
-
             </div>
             <div className=''>
                     <ul className='nav-menu2'>
@@ -75,7 +74,7 @@ const Footer = () => {
                 <button className='bg-white text-black text-[14px] px-8 p-2 my-[20px]'>Subscribe</button>
             </div>
         </div>
-        <div className="border-t border-gray-300  px-[80px]"></div>
+        <div className="border-t border-gray-300  lg:px-[80px]"></div>
         <div className='text-center text-[20px] pt-[20px]'>
             <p className='text-[#767676]'>Copyright © Architype | Designed by &nbsp; 
             <span className='text-[#FFFFFF] '>Thirdeyeinnovations</span> </p>

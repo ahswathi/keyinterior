@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../Components/Layout'
 import Brand from '../Components/Brand'
+import Sliderimg from '../Components/Sliderimg'
+import Sliderimg2 from '../Components/Sliderimg2'
 
 const Services = () => {
   return (
@@ -14,7 +16,7 @@ const Services = () => {
       <p className='text-[18px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
         <div className='flex justify-center items-center py-[60px]'>
             <div className=' w-full	'>
-                <img src="images/index3.png" alt="logo" class="object-cover "/>
+              <Sliderimg/>
             </div>
             <div className="font-normal text-white w-full ps-[40px]">
                 <p className='text-[42px]'>Title</p>
@@ -29,7 +31,8 @@ const Services = () => {
                 <button className='border border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button>
             </div>
             <div className='w-full ps-[40px] py-[20px]'>
-                <img src="images/img3.png" alt="logo" class="object-cover "/>
+              <Sliderimg2/>
+                {/* <img src="images/img3.png" alt="logo" class="object-cover "/> */}
             </div>
         </div>
     </div>
