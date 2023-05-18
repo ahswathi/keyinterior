@@ -21,13 +21,13 @@ const Home = () => {
             <Slidermain/>
           </div>
         <div className="font-normal text-white lg:py-[80px] py-[20px] text-center">
-          <p className='lg:text-[52px] text-[22px]'>YouTube Videos</p> 
-          <p className='lg:text-[18px] text-[12px] px-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+          <p className='lg:text-[52px] sm:text-[42px] text-[22px]'>YouTube Videos</p> 
+          <p className='lg:text-[18px] sm:text-[16px] text-[12px] px-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
           <img src="images/Frame.png" alt="logo" className='py-[20px]' />
         </div>
         <div className="font-normal text-white lg:pt-[40px] pb-[40px] text-center">
-          <p className='lg:text-[52px] text-[22px]'>Our services</p> 
-          <p className='lg:text-[18px] text-[12px] px-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+          <p className='lg:text-[52px] sm:text-[42px] text-[22px]'>Our services</p> 
+          <p className='lg:text-[18px] sm:text-[16px] text-[12px] px-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
         </div>
         <Homebody/>
         <div  className='enquire-img'>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         <div className="font-normal text-white pt-[10px] lg:pt-[40px] pb-[20px] lg:pb-[40px] text-center">
           <p className='lg:text-[52px] sm:text-[36px] text-[22px]'>Google reviews</p> 
-          <p className='lg:text-[18px] sm:text-[12px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+          <p className='lg:text-[18px] sm:text-[16px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
           {/* <img src="images/Group.png" alt="logo" className='py-[60px] w-full px-[160px]' /> */}
           <Testimonial/>
         </div>
