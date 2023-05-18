@@ -5,11 +5,11 @@ import '../Styles/Header.css'
 const Header = () => {
   return (
     <div className='lg:px-[80px] md:px-[80px] sm:px-[40px] px-[40px] bg-[#060606] '> 
-        <div className='flex justify-between py-[40px] '>
-        <div className='logo'>
-            <img src="logo.png" alt="logo" />
+        <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
+        <div className='logo h-[45px] lg:h-[90px]  md:h-[90px]  sm:h-[45px]'>
+            <img src="logo.png" alt="logo" className='h-[45px] lg:h-[90px] md:h-[90px]  sm:h-[45px]'/>
         </div>
-        <div className='nav-menu flex ' >
+        <div className='nav-menu flex  lg:py-[30px] md:py-[30px]  ' >
             <ul className='lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
                 <li>
                     <Link to={'/'}>Home</Link>
