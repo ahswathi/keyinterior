@@ -24,14 +24,14 @@ const Services = () => {
                 {/* <button className='border  border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button> */}
             </div>
         </div>
-        <div className='lg:flex  md:flex justify-center items-center'>
+        <div className='lg:flex lg:flex-row-reverse md:flex  justify-center items-center pb-[60px]'>
+            <div className='w-full lg:ps-[40px] md:ps-[40px] py-[20px]'>
+              <Sliderimg2/>
+            </div>
             <div className="font-normal text-white w-full ">
                 <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[28px]'>Title</p>
                 <p className='lg:text-[18px] md:text-[18px] text-[12px] lg:py-4  md:py-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                {/*  <button className='border border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button> */}
-            </div>
-            <div className='w-full lg:ps-[40px] md:ps-[40px] py-[20px]'>
-              <Sliderimg2/>
             </div>
         </div>
     </div>
