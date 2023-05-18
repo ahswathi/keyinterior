@@ -34,11 +34,11 @@ const Home = () => {
           <div>
               <img src="images/index2.png" alt="logo" className='py-[20px] w-full' />
           </div>
-          <div className="enquire-text font-normal text-white lg:pt-[40px] pt-[20px] pb-[40px] text-center">
-            <p className='lg:text-[52px] sm:text-[32px] text-[18px]'>For more information enquire now </p> 
+          <div className="enquire-text font-normal text-white sm:px-[80px] lg:pt-[40px] pt-[20px] pb-[40px] text-center">
+            <p className='lg:text-[52px] sm:text-[36px] text-[18px]'>For more information enquire now </p> 
             <p className='lg:text-[18px] sm:text-[12px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
             <button className='text-[#000000] font-bold	lg:text-[14px] text-[8px] px-4 
-            lg:px-8  sm:w-[30%] lg:py-3 py-1 lg:w-[50%] w-[40%] bg-[#FFC12B] my-[20px]'>Enquire now</button>
+            lg:px-8  sm:w-[30%] lg:py-3 sm:py-2 py-1 lg:w-[50%] w-[40%] bg-[#FFC12B] my-[20px]'>Enquire now</button>
         </div>
         </div>
         <div className="font-normal text-white pt-[10px] lg:pt-[40px] pb-[20px] lg:pb-[40px] text-center">
