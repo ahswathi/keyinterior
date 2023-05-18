@@ -11,13 +11,13 @@ const Home = () => {
   return (
     <Layout>
         <p className="lg:text-[58px] md:text-[58px] sm:text-[48px]  font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
-        text-[28px] px-[40px] py-[20px]">
+        text-[28px] px-[20px] py-[20px]">
           Transform Your Home into a Haven with Our Interior Design Solutions
         </p>
         {/* <img src="images/index1.png" alt="logo" className='lg:px-[80px] lg:py-[80px] 
                                                           px-[40px] py-[20px]' /> */}
           <div  className='lg:px-[80px] lg:py-[40px] md:px-[80px] md:py-[40px] sm:py-[20px] sm:px-[80px]
-          md:px-[40px] md:py-[20px] px-[40px] py-[10px]' >
+          md:px-[40px] md:py-[20px] px-[20px] py-[10px]' >
             <Slidermain/>
           </div>
         <div className="font-normal text-white lg:py-[80px] py-[40px] text-center">

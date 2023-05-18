@@ -4,7 +4,7 @@ import '../Styles/Header.css'
 
 const Header = () => {
   return (
-    <div className='lg:px-[80px] md:px-[80px] sm:px-[40px] px-[40px] bg-[#060606] '> 
+    <div className='lg:px-[80px] md:px-[80px] sm:px-[40px] px-[20px] bg-[#060606] '> 
         <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
         <div className='logo h-[45px] lg:h-[90px]  md:h-[90px]  sm:h-[45px]'>
             <img src="logo.png" alt="logo" className='h-[45px] lg:h-[90px] md:h-[90px]  sm:h-[45px]'/>
