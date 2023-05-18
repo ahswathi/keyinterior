@@ -42,8 +42,8 @@ const Home = () => {
         </div>
         </div>
         <div className="font-normal text-white pt-[10px] lg:pt-[40px] pb-[20px] lg:pb-[40px] text-center">
-          <p className='lg:text-[52px] text-[22px]'>Google reviews</p> 
-          <p className='lg:text-[18px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+          <p className='lg:text-[52px] sm:text-[36px] text-[22px]'>Google reviews</p> 
+          <p className='lg:text-[18px] sm:text-[12px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
           {/* <img src="images/Group.png" alt="logo" className='py-[60px] w-full px-[160px]' /> */}
           <Testimonial/>
         </div>

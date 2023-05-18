@@ -4,7 +4,7 @@ import '../Styles/Testimonial.css'
 const Testimonial = () => {
   return (
     <div>
-        <section className='lg:py-[60px]  sm:px-[80px]  lg:px-[40px] py-[20px] px-[40px]'>
+        <section className='lg:py-[60px] sm:py-[60px]  sm:px-[80px]  lg:px-[40px] py-[20px] px-[40px]'>
             <div class="testimonial-wrapper">
             <div class="testimonial">
                 <img id="testimonial-1" src="images/Group.png" alt="key-interiors" width='100%' height='100%'/>
