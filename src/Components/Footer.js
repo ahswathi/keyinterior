@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="border-t border-gray-300  lg:px-[80px]"></div>
-        <div className='text-center text-[20px] pt-[20px]'>
+        <div className='text-center lg:text-[20px] text-[12px] pt-[20px]'>
             <p className='text-[#767676]'>Copyright © Architype | Designed by &nbsp; 
             <span className='text-[#FFFFFF] '>Thirdeyeinnovations</span> </p>
         </div>
