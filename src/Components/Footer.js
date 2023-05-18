@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='lg:p-[80px] p-[40px] bg-[#060606] text-white'>
+    <div className='lg:p-[80px] md:p-[80px] sm:p-[80px] p-[40px] bg-[#060606] text-white'>
         <div className='flex flex-wrap justify-between lg:pb-[80px]'>
             <div className='pb-[20px] text-[#767676] text-[20px]'>
             <p>438 Marine Parade Elwood, <br/>
