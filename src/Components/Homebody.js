@@ -9,14 +9,14 @@ const Homebody = () => {
         <div className=' w-[100%] h-[100%] py-[40px]'>
             <Sliderimg/>
         </div>
-        <div className="font-normal text-white w-full lg:ps-[40px]">
+        <div className="font-normal text-white w-full lg:ps-[40px] ps-[40px]">
             <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[28px]'>Construction</p>
             <p className='lg:text-[18px] md:text-[18px] text-[12px] lg:py-4  md:py-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <button className='border  border-[#FFC12B] text-[14px] px-8 py-2 mt-[20px]'>Read more</button>
         </div>
     </div>
     <div className='lg:flex md:flex  justify-center items-center lg:py-[40px] pt-[40px]'>
-        <div className="font-normal text-white w-full lg:pe-[40px] ">
+        <div className="font-normal text-white w-full lg:pe-[40px] pe-[40px]">
             <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[28px]'>Interior</p>
             <p className='lg:text-[18px] md:text-[18px] text-[12px] lg:py-4  md:py-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <button className='border  border-[#FFC12B] text-[14px] px-8 py-2 mt-[20px]'>Read more</button>
