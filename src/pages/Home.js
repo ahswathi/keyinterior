@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         {/* <img src="images/index1.png" alt="logo" className='lg:px-[80px] lg:py-[80px] 
                                                           px-[40px] py-[20px]' /> */}
-          <div  className='lg:px-[80px] lg:py-[40px] md:px-[80px] md:py-[40px] px-[40px] py-[10px]' >
+          <div  className='lg:px-[80px] lg:py-[40px] md:px-[80px] md:py-[40px] md:px-[40px] md:py-[20px] px-[40px] py-[10px]' >
             <Slidermain/>
           </div>
         <div className="font-normal text-white lg:py-[80px] py-[20px] text-center">
