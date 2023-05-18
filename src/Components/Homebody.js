@@ -4,7 +4,7 @@ import Sliderimg2 from '../Components/Sliderimg2'
 
 const Homebody = () => {
   return (
-    <div className='lg:px-[80px] px-[40px] lg:pb-[80px] pb-[40px] '>
+    <div className='lg:px-[80px] px-[40px] lg:pb-[80px]  sm:px-[80px]  pb-[40px] '>
     <div className='lg:flex  md:flex  justify-center items-center lg:py-[40px]'>
         <div className=' w-[100%] h-[100%] py-[40px]'>
             <Sliderimg/>

@@ -3,7 +3,8 @@ import React from 'react'
 const Brand = () => {
   return ( 
     <>
-        <div className='flex flex-wrap   pt-[40px] bg-white sm:px-[20%] md:px-[13%] px-[20%] justify-center	items-center	'>
+        <div className='flex flex-wrap   pt-[40px] bg-white sm:px-[20%] md:px-[13%] px-[20%] 
+        justify-center	items-center	'>
         <div className='w-1/2 sm:w-1/3 md:w-1/3 lg:w-1/6 px-[10px] py-[30px] '>
             <img src="images/1.png" alt="logo" />
         </div>
