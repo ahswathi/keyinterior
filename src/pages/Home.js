@@ -10,7 +10,7 @@ import '../Styles/Header.css'
 const Home = () => {
   return (
     <Layout>
-        <p className="lg:text-[58px] font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
+        <p className="lg:text-[58px] md:text-[58px] sm:text-[48px]  font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
         text-[28px] p-[40px]">
           Transform Your Home into a Haven with Our Interior Design Solutions
         </p>
