@@ -7,7 +7,7 @@ import Sliderimg2 from '../Components/Sliderimg2'
 const Services = () => {
   return (
     <Layout>
-       <div className="font-normal text-white lg:p-[80px] md:p-[80px] sm:p-[40px] py-[20px] px-[40px]">
+       <div className="font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[40px] py-[20px] px-[40px]">
         <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px]'>Services</p> 
         <img src="images/About.png" alt="logo" className='py-[20px]' />
       </div>
