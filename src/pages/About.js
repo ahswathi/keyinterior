@@ -23,7 +23,7 @@ const About = () => {
                 {/* <button className='border  border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button> */}
             </div>
         </div>
-        <div className='lg:flex lg:flex-row-reverse md:flex justify-center items-center'>
+        <div className='lg:flex lg:flex-row-reverse md:flex justify-center items-center pb-[40px]'>
           <div className='w-full lg:ps-[40px] md:ps-[40px] py-[20px]'>
                 <img src="images/img3.png" alt="logo" class="object-cover "/>
             </div>

@@ -29,7 +29,24 @@
 .nav-menu2 li a{
     text-decoration: none;
     color: #767676;
-    padding: 0px 30px;
+    padding: 0px 0px;
+}
+.ham-bar{
+    list-style-type: none;
+    background-color:#FFC12B;
+    height: 100rem;
+    width: 100%;
+    z-index: 100;
+    font-weight: bold;
+}
+.ham-bar li{
+  /*   margin: 8px 0px; */
+    font-size: 20px;
+}
+.ham-bar li a{
+    text-decoration: none;
+    color: #000000;
+   /*  padding: 0px 30px; */
 }
 .footer-input{
     background-color: transparent;

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='lg:p-[80px] md:p-[80px] sm:p-[80px] p-[40px] bg-[#060606] text-white'>
-        <div className='flex flex-wrap justify-between lg:pb-[80px]'>
+        <div className='flex flex-wrap lg:justify-between lg:pb-[80px]'>
             <div className='pb-[20px] text-[#767676] text-[20px]'>
             <p>438 Marine Parade Elwood, <br/>
             Victoria P.O Box 3184 </p>  <br/>
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className=''>
                     <ul className='nav-menu2'>
-                        <span className='ps-[30px] text-[22px]'>Useful Links</span>
+                        <span className='text-[22px]'>Useful Links</span>
                         <li>
                             <Link to={'/about'}>About Us</Link>
                         </li>
@@ -74,11 +74,11 @@ const Footer = () => {
                 <button className='bg-white text-black text-[14px] px-8 p-2 my-[20px]'>Subscribe</button>
             </div>
         </div>
-        <div className="border-t border-gray-300  lg:px-[80px]"></div>
+        {/* <div className="border-t border-gray-300  lg:px-[80px]"></div>
         <div className='text-center lg:text-[20px] text-[12px] pt-[20px]'>
             <p className='text-[#767676]'>Copyright © Architype | Designed by &nbsp; 
             <span className='text-[#FFFFFF] '>Thirdeyeinnovations</span> </p>
-        </div>
+        </div> */}
     </div>
   )
 }

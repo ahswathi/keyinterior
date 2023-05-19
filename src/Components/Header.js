@@ -25,10 +25,27 @@ const Header = () => {
                 </li>
             <button className='text-[#000000] font-bold	text-[14px] px-8 py-2  bg-[#FFC12B] '>Enquire now</button>
             </ul>
-            <button className='block md:hidden sm:block lg:hidden py-3 px-4 mx-2 rounded '>
+            <button className='block md:hidden sm:block lg:hidden py-3 px-4 mx-2 rounded group'>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
+                <div className='absolute ham-bar top-0 -right-full h-screen w-8/12 bg-white border
+                opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'>
+                    <ul className='flex flex-col w-ful  pt-[200px] text-center px-auto '>
+                    <li>
+                        <Link to={'/'}>Home</Link>
+                    </li>
+                    <li>
+                        <Link to={'/about'}>About Us</Link>
+                    </li>
+                    <li>
+                        <Link to={'/services'}>Services</Link>
+                    </li>
+                    <li>
+                        <Link to={'/contact'}>Contact</Link>
+                    </li>
+                    </ul>
+                </div>
             </button>
         </div>
         {/* <div>
