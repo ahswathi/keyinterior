@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='lg:p-[80px] md:p-[80px] sm:p-[80px] p-[40px] bg-[#060606] text-white'>
         <div className='flex flex-wrap lg:justify-between lg:pb-[80px]'>
-            <div className='pb-[20px] text-[#767676] text-[20px]'>
+            <div className='font-poppins pb-[20px] text-[#767676] text-[20px]'>
             <p>438 Marine Parade Elwood, <br/>
             Victoria P.O Box 3184 </p>  <br/>
             <p>Phone: +714 3948 0000  <br/>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
             </div>
             <div className=''>
-                    <ul className='nav-menu2'>
+                    <ul className='nav-menu2 font-poppins '>
                         <span className='text-[22px]'>Useful Links</span>
                         <li>
                             <Link to={'/about'}>About Us</Link>
@@ -68,17 +68,18 @@ const Footer = () => {
                         </li>
                     </ul>
             </div>
-            <div className='flex-col'>
+            {/* <div className='flex-col'>
                 <p className='lg:text-[32px] md:text-[32px] text-[22px] pb-[20px]'>Want to talk about a new<br/> project?</p>
                 <input type="text" placeholder='Enter your email' class="footer-input outline-none focus:outline-none py-2"/> <br/>
                 <button className='bg-white text-black text-[14px] px-8 p-2 my-[20px]'>Subscribe</button>
-            </div>
+            </div> */}
         </div>
-        {/* <div className="border-t border-gray-300  lg:px-[80px]"></div>
-        <div className='text-center lg:text-[20px] text-[12px] pt-[20px]'>
-            <p className='text-[#767676]'>Copyright © Architype | Designed by &nbsp; 
-            <span className='text-[#FFFFFF] '>Thirdeyeinnovations</span> </p>
-        </div> */}
+        <div className="border-t border-gray-300  lg:px-[80px]"></div>
+        <div className='font-poppins  text-center lg:text-[20px] text-[12px] pt-[20px]'>
+            <p className='text-[#767676]'>Copyright © key-interiors | Designed by &nbsp; 
+            <a href='https://www.thirdeyeinfo.com/' 
+            className='text-[#FFFFFF] transition-colors duration-300 hover:text-[#FFC12B]'>Thirdeyeinnovations</a> </p>
+        </div>
     </div>
   )
 }

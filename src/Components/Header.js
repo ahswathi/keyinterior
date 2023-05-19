@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
+import Popup from './Popup';
 import '../Styles/Header.css'
 
-const Header = () => {
+const Header = () => { 
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+    const handleDropdownToggle = () => {
+      setDropdownOpen(!isDropdownOpen);
+    };
   return (
     <div className='lg:px-[80px] md:px-[80px] sm:px-[40px] px-[20px] bg-[#060606] '> 
         <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
@@ -10,7 +16,7 @@ const Header = () => {
             <img src="logo.png" alt="logo" className='h-[45px] lg:h-[90px] md:h-[90px]  sm:h-[45px]'/>
         </div>
         <div className='nav-menu flex  lg:py-[30px] md:py-[30px]  ' >
-            <ul className='lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
+            <ul className='font-poppins lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
                 <li>
                     <Link to={'/'}>Home</Link>
                 </li>
@@ -20,10 +26,31 @@ const Header = () => {
                 <li>
                     <Link to={'/services'}>Services</Link>
                 </li>
+                {/* <li  to={'/services'} className="relative">
+                    <button
+                        onClick={handleDropdownToggle}
+                        className="focus:outline-none text-white"
+                    >
+                        Services 
+                    </button>
+                    <ul
+                        className={`absolute mt-2  ${isDropdownOpen ? 'block' : 'hidden'}`}
+                    >
+                        <li>
+                        <Link to="/construction">Construction </Link>
+                        </li>
+                        <li>
+                        <Link to="/interior">Interior </Link>
+                        </li>
+                    </ul>
+                </li> */}
                 <li>
                     <Link to={'/contact'}>Contact</Link>
                 </li>
-            <button className='text-[#000000] font-bold	text-[14px] px-8 py-2  bg-[#FFC12B] '>Enquire now</button>
+            {/* <button className='text-[#000000] font-bold	text-[14px] px-8 py-2  bg-[#FFC12B] 
+            hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>
+            Enquire now</button> */}
+            <Popup />
             </ul>
             <button className='block md:hidden sm:block lg:hidden py-3 px-4 mx-2 rounded group'>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
@@ -31,7 +58,7 @@ const Header = () => {
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='absolute ham-bar top-0 -right-full h-screen w-8/12 bg-white border
                 opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'>
-                    <ul className='flex flex-col w-ful  pt-[200px] text-center px-auto '>
+                    <ul className='flex flex-col w-ful  pt-[200px] text-center px-auto'>
                     <li>
                         <Link to={'/'}>Home</Link>
                     </li>
@@ -44,6 +71,7 @@ const Header = () => {
                     <li>
                         <Link to={'/contact'}>Contact</Link>
                     </li>
+                    {/* <Popup /> */}
                     </ul>
                 </div>
             </button>

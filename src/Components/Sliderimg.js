@@ -8,9 +8,9 @@ const Sliderimg = () => {
         <section class="container">
             <div class="slider-wrapper">
             <div class="slider">
-                <img id="slide-1" src="images/img1.png" alt="key-interiors" width='100%' height='100%'/>
-                <img id="slide-2" src="images/img3.png" alt="key-interiors"  width='100%' height='100%'/>
-                <img id="slide-3" src="images/img2.png" alt="key-interiors" width='100%' height='100%' />
+                <img id="slide-1" src="images/index3.png" alt="key-interiors" width='100%' height='100%'/>
+                <img id="slide-2" src="images/img2.png" alt="key-interiors"  width='100%' height='100%'/>
+                <img id="slide-3" src="images/img3.png" alt="key-interiors" width='100%' height='100%' />
             </div>
             <div class="slider-nav">
                 <a href="#slide-1"></a>
