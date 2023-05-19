@@ -1,14 +1,50 @@
-import React from 'react';
-import { useForm } from "react-hook-form";
+import React, { useState } from 'react';
 import Layout from '../Components/Layout'
 
 const Contact = () => {
-  const {
-    register,
-    formState: { errors },
-    handleSubmit,
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    number: '',
+  });
+  const [errors, setErrors] = useState({});
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const validationErrors = validateForm();
+
+    if (Object.keys(validationErrors).length === 0) {
+      // Form is valid, perform further actions (e.g., API request, form submission)
+      console.log('Form submitted successfully');
+    } else {
+      // Form has validation errors, update the errors state
+      setErrors(validationErrors);
+    }
+  };
+
+  const validateForm = () => {
+    const errors = {};
+
+    // Validate name
+    if (formData.name.trim() === '') {
+      errors.name = 'Name is required';
+    }
+
+    // Validate email
+    if (!formData.email.match(/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/)) {
+      errors.email = 'Invalid email address';
+    }
+
+    // Validate password
+    if (formData.password.length < 6) {
+      errors.password = 'Password must be at least 6 characters long';
+    }
+
+    return errors;
+  };
   return (
     <Layout>
       <div className='lg:p-[80px] md:p-[80px] sm:p-[50px] p-[40px]'>
@@ -55,48 +91,29 @@ const Contact = () => {
               <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[32px]'>Enquire now</p> 
               <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
             </div>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit}>
                 <div className='flex-col font-poppins '>
-                      <error className='text-red-700 text-[12px]'>
-                        {errors.name?.type === "required" && "Name is required *"}
-                      </error>
-                      <input 
-                        type='text' 
-                        placeholder='Name '
-                        {...register("name", { required: true })}
-                        className="form-input w-[100%] p-2 my-3"/><br/>
-
-                      <error className='text-red-700 text-[12px]'>
-                          {errors.email?.type === "required" && "Email is required *"}
-                          {errors.email?.type === "pattern" &&
-                            "Entered email is in wrong format"}
-                      </error>
-                      <input 
-                          type='email' 
-                          placeholder='Email *' 
-                          {...register("email", {
-                            required: true,
-                            pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/i,
-                          })}
-                          className="form-input w-[100%] p-2 my-3"/><br/>
-
-                        <error className='text-red-700 text-[12px]'>
-                        {errors.number?.type === "minLength" &&
-                          "Entered number is less than 6 digits"}
-                        {errors.number?.type === "maxLength" &&
-                          "Entered number is more than 12 digits"}
-                      </error>
-                      <input 
-                          type="text"
-                          id='number'
-                          placeholder='Phone number *' 
-                          {...register("number", {
-                            required: true,
-                            minLength: 6,
-                            maxLength: 12,
-                          })}
-                          className="form-input w-[100%] p-2 my-3"/><br/>
-
+                  <input 
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange} placeholder='Name *' className="form-input w-[100%] p-2 my-3"/><br/>
+                  {errors.name && <span className="error text-white">{errors.name}</span>}<br/>
+                  <input 
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                    placeholder='Email *' className="form-input w-[100%] p-2 my-3"/><br/>
+                  {errors.name && <span className="error text-white">{errors.name}</span>}<br/>
+                  <input type='number'
+              id="number"
+              name="number"
+              value={formData.number}
+              onChange={handleChange} placeholder='Phone number *' className="form-input w-[100%] p-2 my-3"/><br/>
+                  {errors.name && <span className="error text-white">{errors.name}</span>}<br/>
                   <select className="form-input w-[100%] p-2 my-3">
                       <option value="" disabled selected>How did you find us?</option>
                       <option value="option1">Option 1</option>

@@ -7,6 +7,7 @@ import Slidermain from '../Components/Slidermain'
 import Testimonial from '../Components/Testimonial'
 import '../Styles/Header.css'
 import Popup from '../Components/Popup'
+import Form from './Form'
 
 const Home = () => {
   return (
