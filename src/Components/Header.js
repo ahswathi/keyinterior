@@ -78,13 +78,13 @@ const Header = () => {
                     <li className='ps-[35%]'>
                         <Link to={'/'}>Home</Link>
                     </li>
-                    <li className='ps-[30%]'>
+                    <li className='ps-[35%]'>
                         <Link to={'/about'}>About Us</Link>
                     </li>
-                    <li className='ps-[30%]'>
+                    <li className='ps-[35%]'>
                         <Link to={'/services'}>Services</Link>
                     </li>
-                    <li className='ps-[30%]'>
+                    <li className='ps-[35%]'>
                         <Link to={'/contact'}>Contact</Link>
                     </li>
                     {/* <Popup /> */}
