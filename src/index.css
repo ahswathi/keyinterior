@@ -3,3 +3,26 @@
 @tailwind utilities;
 
 
+/* .circle1{
+    position: absolute;
+    width:  50%;
+    height:  40%;
+left: -28px;
+top: 204px;
+background: rgba(255, 193, 43, 0.5);
+filter: blur(400px);
+
+}
+
+.circle2{
+    position: absolute;
+width:  50%;
+height:  40%;
+right: -28px;
+bottom: -204px;
+background: rgba(255, 193, 43, 0.5);
+filter: blur(400px);
+
+} */
+
+

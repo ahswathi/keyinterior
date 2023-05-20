@@ -15,7 +15,9 @@ const Header = () => {
       setDropdownOpen(!isDropdownOpen);
     };
   return (
-    <div className='lg:px-[80px] md:px-[80px] sm:px-[40px] px-[20px] bg-[#060606] '> 
+      <>
+      <div className='circle1'></div>
+    <div className=' lg:px-[80px] md:px-[80px] sm:px-[40px] px-[20px] bg-[#060606] '> 
         <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
         <div className='logo h-[45px] lg:h-[90px]  md:h-[90px]  sm:h-[45px]'>
         <a href="/">
@@ -66,7 +68,7 @@ const Header = () => {
               {/*   <div className='absolute ham-bar top-0 -right-full h-screen w-8/12 bg-white border
                 opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'>  */}
                   <div className='absolute ham-bar top-0  h-screen  bg-white border
- opacity-1000 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
+ opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
                 <div className="text-right"> 
                 <button
                     onClick={togglePopup}
@@ -97,7 +99,8 @@ const Header = () => {
         </div> */}
         </div>
         <div className="border-t border-gray-300  px-[80px] "></div>
-    </div>
+    </div> 
+    </>
   )
 }
 

@@ -7,6 +7,7 @@ const Layout = ({children}) => {
     <>
         <Header/>
           <div className='bg-[#060606]'>{children}</div>
+          
         <Footer />
     </>
   )

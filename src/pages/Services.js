@@ -7,6 +7,7 @@ import Sliderimg2 from '../Components/Sliderimg2'
 const Services = () => {
   return (
     <Layout>
+      {/*  <div className='relative'> */}
        <div className="font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[40px] py-[20px] px-[40px]">
         <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px]'>Services</p> 
         <img src="images/About.png" alt="logo" className='py-[20px]' />
@@ -36,8 +37,8 @@ const Services = () => {
                 transition-colors duration-300 hover:bg-[#FFC12B] hover:text-black'>Read more</button>
             </div>
         </div>
-    </div>
-       <Brand/>
+    </div>{/* <div className='circle2'></div> */}
+       <Brand/>{/* </div> */}
     </Layout>
   )
 }

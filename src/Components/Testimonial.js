@@ -3,7 +3,9 @@ import '../Styles/Testimonial.css'
 
 const Testimonial = () => {
   return (
-    <div>
+  
+    <div className='relative'>
+      <div className='circle2'></div>
         <section className='lg:py-[60px] sm:pt-[20px] sm:pb-[80px]  sm:px-[80px]  lg:px-[40px] py-[20px] px-[40px]'>
             <div class="testimonial-wrapper">
             <div class="testimonial">
