@@ -69,7 +69,7 @@ const Header = () => {
               {/*   <div className='absolute ham-bar top-0 -right-full h-screen w-8/12 bg-white border
                 opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'>  */}
                   <div className='absolute ham-bar top-0  h-screen  bg-white border
- opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
+ opacity-1000 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
                 <div className="text-right"> 
                 <button
                     onClick={togglePopup}
