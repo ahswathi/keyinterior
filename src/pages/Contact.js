@@ -73,7 +73,7 @@ const Contact = () => {
                       </error>
                       <input 
                           type='email' 
-                          placeholder='Email *' 
+                          placeholder='Email' 
                           {...register("email", {
                             required: true,
                             pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/i,
@@ -81,6 +81,7 @@ const Contact = () => {
                           className="form-input w-[100%] p-2 my-3"/><br/>
 
                         <error className='text-red-700 text-[12px]'>
+                        {errors.number?.type === "required" && "Number is required *"}
                         {errors.number?.type === "minLength" &&
                           "Entered number is less than 6 digits"}
                         {errors.number?.type === "maxLength" &&
@@ -89,7 +90,7 @@ const Contact = () => {
                       <input 
                           type="text"
                           id='number'
-                          placeholder='Phone number *' 
+                          placeholder='Phone number ' 
                           {...register("number", {
                             required: true,
                             minLength: 6,

@@ -61,6 +61,7 @@ const Header = () => {
             Enquire now</button> */}
             <Popup />
             </ul>
+            
             <button className='block md:hidden sm:block lg:hidden py-3 px-4 mx-2 rounded group'>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
@@ -94,9 +95,7 @@ const Header = () => {
                 </div>
             </button>
         </div>
-        {/* <div>
-            <button className='text-[#000000] font-bold	text-[14px] px-8 py-2 w-[50%] bg-[#FFC12B] my-[20px]'>Enquire now</button>
-        </div> */}
+        
         </div>
         <div className="border-t border-gray-300  px-[80px] "></div>
     </div> 

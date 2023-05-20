@@ -24,5 +24,16 @@ background: rgba(255, 193, 43, 0.5);
 filter: blur(400px);
 
 } */
+.owl-nav{
+    visibility:hidden;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot{
+    padding: 80px !important;
+}
 
+.owl-stage{
+
+}
 

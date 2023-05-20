@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/Header.css'
+import { useForm } from "react-hook-form";
 
 const Popup = () => {
     const [isPopupOpen, setPopupOpen] = useState(false);
@@ -7,6 +8,13 @@ const Popup = () => {
     const togglePopup = () => {
       setPopupOpen(!isPopupOpen);
     };
+
+    const {
+      register,
+      formState: { errors },
+      handleSubmit,
+    } = useForm();
+    const onSubmit = (data) => console.log(data);
   
   return (
     <>
@@ -40,19 +48,59 @@ const Popup = () => {
                     <p className='lg:text-[32px] md:text-[32px] sm:text-[28px] text-[22px]'>Enquire now</p> 
                     <p className='font-poppins lg:text-[12px] md:text-[12px] text-[10px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
                     </div>
-                    <div className='flex-col font-poppins '>
-                    <input type='text' placeholder='Name *' className="form-input w-[100%] p-2 my-3"/><br/>
-                    <input type='email' placeholder='Email *' className="form-input w-[100%] p-2 my-3"/><br/>
-                    <input type='phone' placeholder='Phone number *' className="form-input w-[100%] p-2 my-3"/><br/>
-                    <select className="form-input w-[100%] p-2 my-3">
-                        <option value="" disabled selected>How did you find us?</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
-                    </select>
-                    <button onClick={togglePopup} className='text-[#000000] font-bold	text-[14px] px-8 py-2 w-[100%] bg-[#FFC12B] my-[20px]
-                    hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>SEND</button>
-                    </div>
+            <form onSubmit={handleSubmit(onSubmit)} autoComplete>
+                <div className='flex-col font-poppins '>
+                      <error className='text-red-700 text-[12px]'>
+                        {errors.name?.type === "required" && "Name is required *"}
+                      </error>
+                      <input 
+                        type='text' 
+                        placeholder='Name '
+                        {...register("name", { required: true })}
+                        className="form-input w-[100%] p-2 my-3"/><br/>
+
+                      <error className='text-red-700 text-[12px]'>
+                          {errors.email?.type === "required" && "Email is required *"}
+                          {errors.email?.type === "pattern" &&
+                            "Entered email is in wrong format"}
+                      </error>
+                      <input 
+                          type='email' 
+                          placeholder='Email' 
+                          {...register("email", {
+                            required: true,
+                            pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/i,
+                          })}
+                          className="form-input w-[100%] p-2 my-3"/><br/>
+
+                        <error className='text-red-700 text-[12px]'>
+                          {errors.number?.type === "required" && "Number is required *"}
+                        {errors.number?.type === "minLength" &&
+                          "Entered number is less than 6 digits"}
+                        {errors.number?.type === "maxLength" &&
+                          "Entered number is more than 12 digits"}
+                      </error>
+                      <input 
+                          type="text"
+                          id='number'
+                          placeholder='Phone number' 
+                          {...register("number", {
+                            required: true,
+                            minLength: 6,
+                            maxLength: 12,
+                          })}
+                          className="form-input w-[100%] p-2 my-3"/><br/>
+
+                  <select className="form-input w-[100%] p-2 my-3">
+                      <option value="" disabled selected>How did you find us?</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                  </select>
+                  <button  type="submit" className='text-[#000000] font-bold	text-[14px] px-8 py-2 w-[100%] bg-[#FFC12B] my-[20px]
+                  hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>SEND</button>
+                </div>
+            </form>
                 </div>
             </div>
             
