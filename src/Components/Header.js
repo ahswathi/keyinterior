@@ -75,7 +75,7 @@ const Header = () => {
                 </button>
             </div>
                     <ul className='flex flex-col w-ful  pt-[200px] text-center '>
-                    <li className='ps-[30%]'>
+                    <li className='ps-[35%]'>
                         <Link to={'/'}>Home</Link>
                     </li>
                     <li className='ps-[30%]'>
