@@ -27,7 +27,7 @@ const Home = () => {
           <p className='lg:text-[52px] sm:text-[42px] text-[22px]'>YouTube Videos</p> 
           <p className='font-poppins lg:text-[18px] sm:text-[16px] text-[12px] px-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
           <img src="images/Frame.png" alt="logo" className='py-[20px]' />
-          <VideoCarousel/>
+          {/* <VideoCarousel/> */}
         </div>
         <div className="font-normal text-white lg:pt-[40px] text-center">
           <p className='lg:text-[52px] sm:text-[42px] text-[22px]'>Our services</p> 

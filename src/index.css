@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-/* .circle1{
+ .circle1{
     position: absolute;
     width:  50%;
     height:  40%;
@@ -23,7 +23,7 @@ bottom: -204px;
 background: rgba(255, 193, 43, 0.5);
 filter: blur(400px);
 
-} */
+}
 .owl-nav{
     visibility:hidden;
 }
