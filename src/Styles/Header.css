@@ -39,7 +39,8 @@
     list-style-type: none;
     background-color:#FFC12B;
     height: 100rem;
-    width: 100%;
+    left: -232.503px;
+    /* width: 100%; */
     z-index: 100;
     font-weight: bold;
 }
@@ -50,7 +51,6 @@
 .ham-bar li a{
     text-decoration: none;
     color: #000000;
-   /*  padding: 0px 30px; */
 }
 .ham-bar li a:hover{
     color:#FFFFFF;
