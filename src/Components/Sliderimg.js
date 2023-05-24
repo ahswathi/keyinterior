@@ -3,6 +3,10 @@ import '../Styles/Slider.css'
 
 
 const Sliderimg = () => {
+  setInterval(() => {
+    const slider = document.querySelector('.slider');
+    slider.classList.toggle('active-slide');
+  }, 3000);
   return (
     <div>
         <section class="container">

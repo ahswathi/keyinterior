@@ -37,3 +37,6 @@ filter: blur(400px);
 
 }
 
+svg{
+    display: inline;
+}

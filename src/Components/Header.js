@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Popup from './Popup';
 import '../Styles/Header.css'
+import { FaChevronDown } from 'react-icons/fa';
 
 const Header = () => { 
     const [isPopupOpen, setPopupOpen] = useState(false);
@@ -27,23 +28,26 @@ const Header = () => {
         <div className='nav-menu flex  lg:py-[30px] md:py-[30px]  ' >
             <ul className='font-poppins lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
                 <li>
-                    <Link to={'/'}>Home</Link>
+                    <Link to={'/'}>HOME</Link>
                 </li>
                 <li>
-                    <Link to={'/about'}>About Us</Link>
+                    <Link to={'/about'}>ABOUT US</Link>
                 </li>
+               {/*  <li>
+                    <Link to={'/services'}>SERVICES</Link>
+                </li> */}
                 <li>
-                    <Link to={'/services'}>Services</Link>
-                </li>
-                {/* <li  to={'/services'} className="relative">
+                    <Link to={'/services'}  className="relative ">
                     <button
                         onClick={handleDropdownToggle}
-                        className="focus:outline-none text-white"
+                        className=" focus:outline-none text-white hover:text-[#FFC12B] "
                     >
-                        Services 
+                        SERVICES   &nbsp;
+                        <FaChevronDown size={16}  />
                     </button>
+                    {/* <FontAwesomeIcon icon="fa-sharp fa-regular fa-chevron-down" className='text-white hover:text-[#FFC12B]'/>  */}    </Link>
                     <ul
-                        className={`absolute mt-2  ${isDropdownOpen ? 'block' : 'hidden'}`}
+                        className={`absolute mt-2 ms-4 ${isDropdownOpen ? 'block' : 'hidden'}`}
                     >
                         <li>
                         <Link to="/construction">Construction </Link>
@@ -52,9 +56,9 @@ const Header = () => {
                         <Link to="/interior">Interior </Link>
                         </li>
                     </ul>
-                </li> */}
+                </li>
                 <li>
-                    <Link to={'/contact'}>Contact</Link>
+                    <Link to={'/contact'}>CONTACT</Link>
                 </li>
             {/* <button className='text-[#000000] font-bold	text-[14px] px-8 py-2  bg-[#FFC12B] 
             hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>
@@ -66,10 +70,8 @@ const Header = () => {
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
-              {/*   <div className='absolute ham-bar top-0 -right-full h-screen w-8/12 bg-white border
-                opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'>  */}
-                  <div className='absolute ham-bar top-0  h-screen  bg-white border
- opacity-1000 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
+                <div className='absolute ham-bar top-0  h-screen  bg-white border
+                    opacity-1000 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
                 <div className="text-right"> 
                 <button
                     onClick={togglePopup}

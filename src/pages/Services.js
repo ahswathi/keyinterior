@@ -12,9 +12,9 @@ const Services = () => {
         <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px]'>Services</p> 
         <img src="images/About.png" alt="logo" className='py-[20px]' />
       </div>
-      <div className='text-white lg:p-[80px] md:p-[80px] sm:p-[40px] px-[40px]'>
-      <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] '>Who we are</p> 
-      <p className='font-poppins lg:text-[18px] md:text-[18px] text-[10px] '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+      <div className='text-white lg:pb-[80px] md:pb-[80px] sm:pb-[40px] px-[40px]'>
+      {/* <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] '>Who we are</p> 
+      <p className='font-poppins lg:text-[18px] md:text-[18px] text-[10px] '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  */}
         <div className='lg:flex  md:flex justify-center items-center lg:py-[60px] md:py-[60px] py-[20px]'>
             <div className=' w-full	'>
                 <Sliderimg/>
@@ -22,8 +22,8 @@ const Services = () => {
             <div className="font-normal text-white w-full lg:ps-[40px] md:ps-[40px]">
                 <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[28px] '>Construction</p>
                 <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px] lg:py-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button className='font-poppins border  border-[#FFC12B] text-[14px] px-8 py-2 md:py-4
-                transition-colors duration-300 hover:bg-[#FFC12B] hover:text-black'>Read more</button>
+                <a href='/construction'><button className='font-poppins border  border-[#FFC12B] text-[14px] px-8 py-2 md:py-4
+                transition-colors duration-300 hover:bg-[#FFC12B] hover:text-black'>Read more</button></a>
             </div>
         </div>
         <div className='lg:flex lg:flex-row-reverse md:flex  justify-center items-center pb-[60px]'>
@@ -33,8 +33,8 @@ const Services = () => {
             <div className="font-normal text-white w-full ">
                 <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[28px]'>Interior Design</p>
                 <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px] lg:py-4  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button className='font-poppins border border-[#FFC12B] text-[14px] px-8 py-2 md:py-4
-                transition-colors duration-300 hover:bg-[#FFC12B] hover:text-black'>Read more</button>
+                <a href='/interior'><button className='font-poppins border border-[#FFC12B] text-[14px] px-8 py-2 md:py-4
+                transition-colors duration-300 hover:bg-[#FFC12B] hover:text-black'>Read more</button></a>
             </div>
         </div>
     </div>{/* <div className='circle2'></div> */}

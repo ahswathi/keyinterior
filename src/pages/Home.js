@@ -41,9 +41,9 @@ const Home = () => {
           <div className="enquire-text font-normal text-white sm:px-[80px] lg:pt-[40px] pt-[10px] pb-[40px] text-center">
             <p className='lg:text-[52px] sm:text-[36px] text-[18px]'>For more information enquire now </p> 
             <p className='font-poppins lg:text-[18px] sm:text-[12px] text-[8px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-            <button className='text-[#000000] font-bold	lg:text-[14px] text-[8px] px-4 
+            <Popup /> {/* <button  className='text-[#000000] font-bold	lg:text-[14px] text-[8px] px-4 
             lg:px-8  sm:w-[30%] lg:py-3 sm:py-2 py-1 lg:w-[50%] w-[40%] bg-[#FFC12B] my-[20px]
-            hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>Enquire now</button>
+            hover:bg-transparent hover:text-white hover:border-[#FFC12B] hover:border transition-colors duration-300'>Enquire now</button> */}
         </div>
         </div>
         <div className="font-normal text-white pt-[10px] lg:pt-[40px] pb-[60px] lg:pb-[40px] text-center">

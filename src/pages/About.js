@@ -12,7 +12,7 @@ const About = () => {
     </div>
     <div className='text-white lg:p-[80px] md:p-[80px] sm:p-[40px] px-[40px]'>
       <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] '>Who we are</p> 
-      <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px] '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+      <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px]  font-normal	'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
         <div className='lg:flex  md:flex justify-center items-center lg:py-[60px] md:py-[60px] py-[20px]'>
             <div className=' w-full	'>
                 <img src="images/img3.png" alt="logo" class="object-cover "/>
