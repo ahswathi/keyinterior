@@ -70,16 +70,19 @@ const Header = () => {
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
-                <div className='absolute ham-bar top-0  h-screen  bg-white border
-                    opacity-1000 group-focus:right-0  group-focus:opacity-100 transition-all duration-600'> 
-                <div className="text-right"> 
+               {/*  absolute ham-bar top-0  h-screen  bg-white border
+                    opacity-1000 group-focus:left-0  group-focus:opacity-400 transition-all duration-600 */}
+                <div className='
+                    absolute ham-bar top-0  h-screen bg-white border overflow-hidden
+                opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'> 
+                {/* <div className="text-right"> 
                 <button
                     onClick={togglePopup}
                     className="mt-4  text-black font-bold py-2 px-4 rounded pr-[40px]"
                     > X
                 </button>
-            </div>
-                    <ul className='flex flex-col w-ful  pt-[200px] text-center '>
+            </div> */}
+                    <ul className='flex flex-col w-full  pt-[200px] text-center '>
                     <li className='ps-[35%]'>
                         <Link to={'/'}>Home</Link>
                     </li>
