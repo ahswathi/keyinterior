@@ -73,29 +73,27 @@ const Header = () => {
                {/*  absolute ham-bar top-0  h-screen  bg-white border
                     opacity-1000 group-focus:left-0  group-focus:opacity-400 transition-all duration-600 */}
                 <div className='
-                    absolute ham-bar top-0  h-screen bg-white border overflow-hidden
-                opacity-0 group-focus:right-0  group-focus:opacity-100 transition-all duration-300'> 
-                {/* <div className="text-right"> 
+                    absolute ham-bar top-0  h-screen bg-white border overflow-hidden w-[400px]
+                opacity-0 group-focus:left-0  group-focus:opacity-100 transition-all duration-300'> 
+                <div className="text-right"> 
                 <button
                     onClick={togglePopup}
                     className="mt-4  text-black font-bold py-2 px-4 rounded pr-[40px]"
                     > X
                 </button>
-            </div> */}
-                    <ul className='flex flex-col w-full  pt-[200px] text-center '>
-                    <li className='ps-[35%]'>
-                        <Link to={'/'}>Home</Link>
+            </div>  <ul className='flex flex-col w-full  pt-[200px] text-center '>
+                    <li /* className='ps-[35%]' */>
+                    <a href='/'>Home</a>
                     </li>
-                    <li className='ps-[35%]'>
-                        <Link to={'/about'}>About Us</Link>
+                     <li /* className='ps-[35%]' */>
+                     <a href='/about'>About Us</a>
                     </li>
-                    <li className='ps-[35%]'>
-                        <Link to={'/services'}>Services</Link>
+                    <li /* className='ps-[35%]' */>
+                    <a href='/services'>Services</a>
                     </li>
-                    <li className='ps-[35%]'>
-                        <Link to={'/contact'}>Contact</Link>
+                    <li /* className='ps-[35%]' */>
+                    <a href='/contact'>Contact</a>
                     </li>
-                    {/* <Popup /> */}
                     </ul>
                 </div>
             </button>
