@@ -6,7 +6,7 @@ const Testimonial = () => {
   
     <div className='relative'>
       {/* <div className='circle2'></div> */}
-        <section className='lg:py-[60px] sm:pt-[20px] sm:pb-[80px]  sm:px-[80px]  lg:px-[40px] py-[20px] px-[40px]'>
+        <section className='lg:py-[60px] sm:pt-[20px] sm:pb-[80px]  sm:px-[80px]  lg:px-[40px] py-[20px] px-[20px]'>
             <div class="testimonial-wrapper">
             <div class="testimonial">
                 <img id="testimonial-1" src="images/Group.png" alt="key-interiors" width='100%' height='100%'/>

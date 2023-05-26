@@ -73,7 +73,7 @@ const Header = () => {
                {/*  absolute ham-bar top-0  h-screen  bg-white border
                     opacity-1000 group-focus:left-0  group-focus:opacity-400 transition-all duration-600 */}
                 <div className='
-                    absolute ham-bar top-0  h-screen bg-white border overflow-hidden w-[365px]
+                    absolute ham-bar top-0  h-screen bg-white border overflow-hidden w-[370px]
                 opacity-0 group-focus:left-0  group-focus:opacity-100 transition-all duration-300'> 
                 <div className="text-right"> 
                 <button

@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <div className='lg:p-[80px] md:p-[80px] sm:p-[80px] p-[40px] bg-[#060606] text-white'>
         <div className='flex flex-wrap lg:justify-between lg:pb-[80px]'>
-            <div className='font-poppins pb-[20px] text-[#767676] text-[20px]'>
+            <div className='font-poppins pb-[20px] text-[#767676] lg:text-[20px] text-[16px] '>
             <p>438 Marine Parade Elwood, <br/>
             Victoria P.O Box 3184 </p>  <br/>
             <p>Phone: +714 3948 0000  <br/>
             Email: hello@architype.com</p>
             {/* <SocialMediaIcons /> */}
-            <div className='flex pt-6'>
+            <div className='flex pt-6 pb-[20px] lg:pb[0px]'>
                 <a href='#'>
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_56_136)">
@@ -60,7 +60,7 @@ const Footer = () => {
                 </a> &nbsp;&nbsp;
             </div>
             </div>
-            <div className=''>
+            <div className='pb-[20px] lg:pb[0px]'>
                     <ul className='nav-menu2 font-poppins '>
                         <span className='text-[22px]'>Useful Links</span>
                         <li>

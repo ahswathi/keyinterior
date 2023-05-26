@@ -9,7 +9,7 @@ const Slidermain = () => {
             <div class="slidermain-wrapper">
             <div class="slidermain">
                 <img id="slidermain-1" src="images/Home.png" alt="key-interiors" width='100%' height='100%' 
-                  className='lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[30px] rounded-bl-[30px]'/>
+                  className='lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]'/>
                 <img id="slidermain-2" src="images/Home.png" alt="key-interiors"  width='100%' height='100%' 
                   className='lg:rounded-tr-[100px] lg:rounded-bl-[100px]'/>
                 <img id="slidermain-3" src="images/Home.png" alt="key-interiors"  width='100%' height='100%' 
