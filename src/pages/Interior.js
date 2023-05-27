@@ -10,7 +10,7 @@ const Interior = () => {
       <div className=''> <img src="images/About.png" alt="logo" className='py-[20px] h-[200px] lg:h-[480px] md:h-[380px] w-full
       lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]' /></div>
     </div>
-    <div className='lg:px-[80px] md:px-[80px]  text-white lg:pb-[80px] md:pb-[80px] pb-[40px] px-[20px] '>
+    <div className='lg:px-[80px] md:px-[40px]  text-white lg:pb-[80px] md:pb-[80px] pb-[40px] px-[20px] '>
       <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] text-center lg:text-left'>How it works</p> 
       <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px] text-center lg:text-left'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
         <div className='lg:flex  md:flex justify-center items-center py-[60px]'>

@@ -4,8 +4,8 @@ import SocialMediaIcons from './SocialMediaIcons'
 
 const Footer = () => {
   return (
-    <div className='lg:p-[80px] md:p-[80px] sm:p-[80px] p-[40px] bg-[#060606] text-white'>
-        <div className='flex flex-wrap lg:justify-between lg:pb-[80px]'>
+    <div className='lg:p-[80px] md:p-[40px] sm:p-[40px] p-[40px] bg-[#060606] text-white'>
+        <div className='flex flex-wrap lg:justify-between md:justify-between lg:pb-[80px]'>
             <div className='font-poppins pb-[20px] text-[#767676] lg:text-[20px] text-[16px] '>
             <p>438 Marine Parade Elwood, <br/>
             Victoria P.O Box 3184 </p>  <br/>

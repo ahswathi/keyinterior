@@ -24,13 +24,13 @@ const About = () => {
                 {/* <button className='border  border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button> */}
             </div>
         </div>
-        <div className='lg:flex lg:flex-row-reverse md:flex justify-center items-center pb-[40px]'>
+        <div className='lg:flex lg:flex-row-reverse md:flex md:flex-row-reverse justify-center items-center pb-[40px]'>
           <div className='w-full lg:ps-[40px] md:ps-[40px] py-[20px]'>
                 <img src="images/img1.png" alt="logo" class="object-cover "/>
             </div>
             <div className="font-normal text-white w-full ">
-                <p className='lg:text-[42px] md:text-[42px] sm:text-[28px] text-[22px]'>Title</p>
-                <p className='font-poppins lg:text-[18px] md:text-[18px] text-[12px] lg:py-4  md:py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className='lg:text-[42px] md:text-[28px] sm:text-[28px] text-[22px]'>Title</p>
+                <p className='font-poppins lg:text-[18px] md:text-[12px] text-[12px] lg:py-4  md:py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                {/*  <button className='border border-[#FFC12B] text-[14px] px-8 py-2'>Read more</button> */}
             </div>
             

@@ -11,7 +11,7 @@ const Contact = () => {
   const onSubmit = (data) => console.log(data);
   return (
     <Layout>
-      <div className='lg:p-[80px] md:p-[80px] sm:p-[50px] p-[20px]'>
+      <div className='lg:p-[80px] md:p-[40px] sm:p-[40px] p-[20px]'>
         <div className="lg:flex  md:flex sm:flex justify-center items-center pb-[20px]">
           <div className="font-normal text-white pe-[40px]">
             <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[32px] '>Contact us</p> 
