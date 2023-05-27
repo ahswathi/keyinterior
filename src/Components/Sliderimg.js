@@ -9,7 +9,7 @@ const Sliderimg = () => {
   }, 3000);
   return (
     <div>
-        <section class="container">
+        <section class="">
             <div class="slider-wrapper">
             <div class="slider">
                 <img id="slide-1" src="images/index3.png" alt="key-interiors" width='100%' height='100%'/>
