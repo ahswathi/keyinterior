@@ -18,7 +18,7 @@ const Header = () => {
   return (
       <>
       <div className='circle1'></div>
-    <div className=' lg:px-[80px] md:px-[80px] sm:px-[40px] px-[20px] bg-[#060606] '> 
+    <div className=' lg:px-[80px] md:px-[40px] sm:px-[40px] px-[20px] bg-[#060606] '> 
         <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
         <div className='logo h-[45px] lg:h-[90px]  md:h-[90px]  sm:h-[45px]'>
         <a href="/">
@@ -28,16 +28,16 @@ const Header = () => {
         <div className='nav-menu flex  lg:py-[30px] md:py-[30px]  ' >
             <ul className='font-poppins lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
                 <li>
-                    <Link to={'/'}>HOME</Link>
+                    <Link to={'/'} className='lg:text-[16px]  md:text-[10px]'>HOME</Link>
                 </li>
                 <li>
-                    <Link to={'/about'}>ABOUT US</Link>
+                    <Link to={'/about'} className='lg:text-[16px]  md:text-[10px]'>ABOUT US</Link>
                 </li>
                {/*  <li>
                     <Link to={'/services'}>SERVICES</Link>
                 </li> */}
                 <li>
-                    <Link to={'/services'}  className="relative ">
+                    <Link to={'/services'}  className="relative  lg:text-[16px] md:text-[10px]">
                     <button
                         onClick={handleDropdownToggle}
                         className=" focus:outline-none text-white hover:text-[#FFC12B] "

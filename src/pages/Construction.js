@@ -5,10 +5,10 @@ import Brand from '../Components/Brand'
 const Construction = () => {
   return (
     <Layout>
-    <div className="font-normal text-white lg:p-[80px] md:p-[80px] sm:p-[40px] py-[20px] px-[20px]">
-      <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px]'>Construction</p> 
-      <img src="images/construction.png" alt="logo" className='py-[20px] h-[200px] lg:h-[480px] w-full
-      lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]' />
+    <div className="font-normal text-white lg:p-[80px] md:p-[40px] sm:pt-[40px] py-[20px] px-[20px] ">
+      <p className='lg:text-[58px] md:text-[58px] sm:text-[38px] text-[38px] '>Construction</p> 
+      <div className=''> <img src="images/About.png" alt="logo" className='py-[20px] h-[200px] lg:h-[480px] md:h-[380px] w-full
+      lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]' /></div>
     </div>
     <div className='lg:px-[80px] md:px-[80px] text-white lg:pb-[80px] md:pb-[80px] pb-[40px] px-[20px]  '>
       <p className='lg:text-[52px] md:text-[52px] sm:text-[38px] text-[38px] text-center lg:text-left'>How it works</p> 

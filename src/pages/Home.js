@@ -13,11 +13,11 @@ import VideoCarousel from '../Components/VideoCarousel'
 const Home = () => {
   return (
     <Layout>
-        <p className="lg:text-[58px] md:text-[58px] sm:text-[48px] lg:hidden sm:hidden md:hidden font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
-        text-[28px] px-[20px] py-[20px]">
+        <p className="lg:text-[58px] md:text-[52px]  lg:hidden font-normal text-white lg:p-[80px] md:p-[40px] sm:pt-[20px]  sm:px-[80px] 
+        text-[26px] px-[20px] py-[20px]">
           Transform Your Home into<br/> a Haven with Our Interior <br/>Design Solutions
         </p>
-        <p className="lg:text-[58px] md:text-[58px] sm:text-[48px] hidden sm:block lg:block md:block font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
+        <p className="lg:text-[58px] md:text-[58px] sm:text-[48px] hidden  lg:block font-normal text-white lg:p-[80px] md:p-[80px] sm:pt-[20px]  sm:px-[80px] 
         text-[28px] px-[20px] py-[20px]">
           Transform Your Home into a Haven with <br/>Our Interior Design Solutions
         </p>
