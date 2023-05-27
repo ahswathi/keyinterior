@@ -19,13 +19,13 @@ const Header = () => {
       <>
       <div className='circle1'></div>
     <div className=' lg:px-[80px] md:px-[40px] sm:px-[40px] px-[20px] bg-[#060606] '> 
-        <div className='flex justify-between py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
+        <div className='flex justify-between  items-center py-[20px]  lg:py-[40px] md:py-[40px] sm:py-[30px]'>
         <div className='logo h-[45px] lg:h-[90px]  md:h-[90px]  sm:h-[45px]'>
         <a href="/">
          <img src="logo.png" alt="logo" className='h-[45px] lg:h-[90px] md:h-[90px]  sm:h-[45px]'/>
          </a>
         </div>
-        <div className='nav-menu flex  lg:py-[30px] md:py-[30px]  ' >
+        <div className='nav-menu flex justify-center items-center  lg:py-[30px] md:py-[30px]  ' >
             <ul className='font-poppins lg:flex lg:block md:flex md:block hidden nav lg:text-[16px] md:text-[10px] text-[12px]'>
                 <li>
                     <Link to={'/'} className='lg:text-[16px]  md:text-[10px]'>HOME</Link>
@@ -65,7 +65,9 @@ const Header = () => {
             Enquire now</button> */}
             <Popup />
             </ul>
-            
+            <div className='lg:hidden md:hidden'>
+                <Popup />
+            </div>
             <button className='block md:hidden sm:block lg:hidden py-3 px-4 mx-2 rounded group'>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
                 <div className='w-6 h-1 bg-gray-500 mb-1'></div>
@@ -90,6 +92,12 @@ const Header = () => {
                     </li>
                     <li /* className='ps-[35%]' */>
                     <a href='/services'>Services</a>
+                    </li>
+                    <li /* className='ps-[35%]' */>
+                    <a href='/construction'>Construction</a>
+                    </li>
+                    <li /* className='ps-[35%]' */>
+                    <a href='/interior'>Interior</a>
                     </li>
                     <li /* className='ps-[35%]' */>
                     <a href='/contact'>Contact</a>
