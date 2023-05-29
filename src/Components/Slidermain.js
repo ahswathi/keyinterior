@@ -11,9 +11,9 @@ const Slidermain = () => {
                 <img id="slidermain-1" src="images/Home.png" alt="key-interiors" width='100%' height='100%' 
                   className='lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]'/>
                 <img id="slidermain-2" src="images/Home.png" alt="key-interiors"  width='100%' height='100%' 
-                  className='lg:rounded-tr-[100px] lg:rounded-bl-[100px]'/>
+                   className='lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]'/>
                 <img id="slidermain-3" src="images/Home.png" alt="key-interiors"  width='100%' height='100%' 
-                  className='lg:rounded-tr-[100px] lg:rounded-bl-[100px]'/>
+                   className='lg:rounded-tr-[100px] lg:rounded-bl-[100px] rounded-tr-[45px] rounded-bl-[45px]'/>
             </div>
             <div class="slidermain-nav">
                 <a href="#slidermain-1"></a>

@@ -38,11 +38,11 @@ const Home = () => {
           <p className='font-poppins lg:text-[18px] sm:text-[16px] text-[12px] px-[30px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
         </div>
         <Homebody/>
-        <div  className='enquire-img'>
+        <div  className='relative'>
           <div>
               <img src="images/index2.png" alt="logo" className='py-[20px] w-full opacity-0.1 h-[300px] lg:h-[500px]' />
           </div>
-          <div className="enquire-text font-normal text-white sm:px-[80px] lg:pt-[40px] pt-[10px] pb-[40px] text-center 
+          <div className="absolute font-normal text-white sm:px-[80px] lg:pt-[40px] pt-[10px] pb-[40px] text-center 
           top-[25%] lg:top-[20%] lg:left-[15%]  md:top-[22%] md:left-[6%]">
             <p className='lg:text-[52px] sm:text-[36px] text-[22px] pb-[10px] '>For more information enquire now </p> 
             <p className='font-poppins lg:text-[18px] sm:text-[12px] text-[12px] px-[30px] pb-[10px] lg:pb-[20px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 

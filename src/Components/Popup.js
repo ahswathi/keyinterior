@@ -19,11 +19,12 @@ const Popup = () => {
   return (
     <>
     <button onClick={togglePopup}
-    className='text-black bg-[#FFC12B] lg:w-[300px]  md:w-[300px]  w-[100px] font-bold	text-[14px] mx-auto 
+    className='text-black bg-[#FFC12B] lg:w-[200px]  md:w-[300px]  w-[100px] font-bold
+            lg:text-[14px] md:text-[14px]	text-[10px] mx-auto 
             lg:py-3 lg:px-3 md:py-3 md:px-3 py-2 
             hover:bg-[#FFC12B] hover:text-black
             lg:bg-[#FFC12B] lg:text-[#000000] md:bg-[#FFC12B] md:text-[#000000] 
-            lg:px-8 lg:py-2   md:px-8 md:py-2  
+            lg:px-8 lg:py-2  md:px-8 md:py-2  
             hover:bg-transparent hover:text-white hover:border-[#FFC12B] 
             hover:border transition-colors duration-300'>
             Enquire now</button>
